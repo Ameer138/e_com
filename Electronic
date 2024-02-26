@@ -1,0 +1,13 @@
+public class Electronics extends Product {
+    private int warrantyDuration; // in months
+
+    public Electronics(String name, double price, int warrantyDuration) {
+        super(name, price, "Electronics");
+        this.warrantyDuration = warrantyDuration;
+    }
+
+    // Getter
+    public int getWarrantyDuration() {
+        return warrantyDuration;
+    }
+}
